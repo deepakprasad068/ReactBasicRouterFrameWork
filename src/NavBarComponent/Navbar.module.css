@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  margin-right: 20%;
+  flex-direction: row;
+  justify-content: right;
+}
+.Link {
+  text-decoration: none;
+  color: rgb(62, 51, 51);
+  font-size: 1.5em;
+  margin-right: 2%;
+  font-family: "Times New Roman", Times, serif;
+}
+.Link:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
