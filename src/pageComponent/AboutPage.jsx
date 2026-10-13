@@ -8,11 +8,19 @@ export const AboutPage = () => {
     <div className={style.container}>
       <h2 className={style.title}>About Page</h2>
 
-      <p className={style.description}>{data}</p>
+      <p className={style.description}>{JSON.stringify(data)}</p>
     </div>
   );
 };
 
-export function aboutLoader() {
-  return "Welcome to the About Page";
+export async function aboutLoader() {
+  const response = await fetch("YOUR_API_URL");
+
+  if (!response.ok) {
+    throw new Response("Failed to load data", {
+      status: response.status,
+    });
+  }
+
+  return response.json();
 }
