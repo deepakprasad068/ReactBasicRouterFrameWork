@@ -43,13 +43,13 @@ _The structure may be extended as your application grows._
 ### 1. Clone the Repository
 
 ```bash
-git clone <https://github.com/deepakprasad068/ReactBasicRouterFrameWork.git>
+git clone https://github.com/deepakprasad068/ReactBasicRouterFrameWork.git
 ```
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd <ReactBasicRouterFrameWork>
+cd ReactBasicRouterFrameWork
 ```
 
 ### 3. Install Dependencies
